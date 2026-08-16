@@ -10,13 +10,13 @@ Each experiment is organized in its own dedicated directory, complete with step-
 
 | Exp # | Experiment Title | Tech Stack / Platform | Link | Screenshots |
 |:---:|---|---|:---:|:---:|
-| **01** | **Virtualization Setup**<br>Set up VirtualBox/VMware Workstation running a Linux or Windows OS | VirtualBox, Linux / Windows | [View Experiment](./Experiment_01_VirtualBox) | 6 Images |
-| **02** | **Virtual Machine C Compiler**<br>Configure a C compiler inside a virtual machine and execute a basic program | Linux (Ubuntu), GCC, VirtualBox | [View Experiment](./Experiment_02_C_Compiler) | 5 Images |
-| **03** | **AWS EC2 Instance**<br>Launch an EC2 instance on AWS (Amazon Web Services) | AWS EC2, Linux AMI, SSH | [View Experiment](./Experiment_03_AWS_EC2) | 8 Images |
-| **04** | **Salesforce Apex Application**<br>Build a basic application using the Apex programming language | Salesforce Developer Console, Apex | [View Experiment](./Experiment_04_Salesforce_Apex) | Apex Code |
-| **05** | **Salesforce Mailing Service**<br>Set up an email mailing service using the Apex programming language | Salesforce Developer Console, Apex | [View Experiment](./Experiment_05_Salesforce_Mailing) | 3 Images |
-| **06** | **CloudSim Simulation**<br>Model a cloud environment using CloudSim and execute a custom scheduling algorithm | Java, CloudSim API, Eclipse | [View Experiment](./Experiment_06_CloudSim_Simulation) | Console Logs |
-| **09** | **Google App Engine**<br>Deploy and launch web applications using the Google App Engine Launcher | Google App Engine, Python, `app.yaml` | [View Experiment](./Experiment_09_Google_App_Engine) | 5 Images |
+| **01** | **Virtualization Setup**<br>Set up VirtualBox/VMware Workstation running a Linux or Windows OS | VirtualBox, Linux / Windows | [View Experiment](./01_VirtualBox) | 6 Images |
+| **02** | **Virtual Machine C Compiler**<br>Configure a C compiler inside a virtual machine and execute a basic program | Linux (Ubuntu), GCC, VirtualBox | [View Experiment](./02_C_Compiler) | 5 Images |
+| **03** | **AWS EC2 Instance**<br>Launch an EC2 instance on AWS (Amazon Web Services) | AWS EC2, Linux AMI, SSH | [View Experiment](./03_AWS_EC2) | 8 Images |
+| **04** | **Salesforce Apex Application**<br>Build a basic application using the Apex programming language | Salesforce Developer Console, Apex | [View Experiment](./04_Salesforce_Apex) | Apex Code |
+| **05** | **Salesforce Mailing Service**<br>Set up an email mailing service using the Apex programming language | Salesforce Developer Console, Apex | [View Experiment](./05_Salesforce_Mailing) | 3 Images |
+| **06** | **CloudSim Simulation**<br>Model a cloud environment using CloudSim and execute a custom scheduling algorithm | Java, CloudSim API, Eclipse | [View Experiment](./06_CloudSim_Simulation) | Console Logs |
+| **09** | **Google App Engine**<br>Deploy and launch web applications using the Google App Engine Launcher | Google App Engine, Python, `app.yaml` | [View Experiment](./09_Google_App_Engine) | 5 Images |
 
 ---
 
@@ -25,13 +25,13 @@ Each experiment is organized in its own dedicated directory, complete with step-
 ```
 CLOUD_LAB/
 ├── README.md                              # Universal Repository Guide
-├── Experiment_01_VirtualBox/              # Exp 1: VirtualBox & OS Installation
-├── Experiment_02_C_Compiler/              # Exp 2: VM C Compiler Setup & Execution
-├── Experiment_03_AWS_EC2/                 # Exp 3: AWS EC2 Instance Creation
-├── Experiment_04_Salesforce_Apex/         # Exp 4: Salesforce Apex Application
-├── Experiment_05_Salesforce_Mailing/      # Exp 5: Salesforce Mailing Service
-├── Experiment_06_CloudSim_Simulation/     # Exp 6: CloudSim Simulation & Scheduling
-└── Experiment_09_Google_App_Engine/       # Exp 9: Google App Engine Web App
+├── 01_VirtualBox/                         # Exp 1: VirtualBox & OS Installation
+├── 02_C_Compiler/                         # Exp 2: VM C Compiler Setup & Execution
+├── 03_AWS_EC2/                            # Exp 3: AWS EC2 Instance Creation
+├── 04_Salesforce_Apex/                    # Exp 4: Salesforce Apex Application
+├── 05_Salesforce_Mailing/                 # Exp 5: Salesforce Mailing Service
+├── 06_CloudSim_Simulation/                # Exp 6: CloudSim Simulation & Scheduling
+└── 09_Google_App_Engine/                  # Exp 9: Google App Engine Web App
 ```
 
 ---
@@ -47,6 +47,6 @@ CLOUD_LAB/
 ## Getting Started
 
 To get started with an experiment:
-1. Open the desired experiment directory (e.g., `cd Experiment_03_AWS_EC2`).
+1. Open the desired experiment directory (e.g., `cd 03_AWS_EC2`).
 2. Refer to the local `README.md` for the full aim, step-by-step procedure, source code, configuration guides, and visual walkthroughs.
 3. Find all corresponding screenshots within each experiment's `images/` folder.
